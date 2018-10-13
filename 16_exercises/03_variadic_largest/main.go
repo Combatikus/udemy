@@ -4,13 +4,13 @@ import "fmt"
 
 func max(x ...int) int {
 	var max int
-	
+
 	for _, i := range x {
 		if i > max {
 			max = i
 		}
 	}
-	
+
 	return max
 }
 
